@@ -1,0 +1,30 @@
+Strategic Machines
+=========
+
+Patrick Howard
+Founder Strategic Machines
+Strategic Architecture | Edge Computing | Low Latency Business Networks
+
+Contact
+-------
+
+* LinkedIn or
+* @urban_coder on Twitter
+* Blog: https://proximityblog.netlify.app/
+
+Projects
+--------
+
+* https://proximitymachine.netlify.app/
+
+Industry Contributions
+-----------
+
+* Digital reputations
+* Event challenges
+* Collaboration models at scale
+* Conversational commerce in practice
+* Awarded 4 US Patents
+* Insights, not search
+
+
