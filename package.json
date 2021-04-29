@@ -1,7 +1,7 @@
 {
   "name": "mssabout",
   "version": "0.5.0",
-  "description": "Mss International Marketing App",
+  "description": "MSS International Marketing App",
   "main": "app.js",
   "scripts": {
     "build": "webpack",
