@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --open --mode development",
     "watch": "webpack --progress --watch"
-  },  
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",
