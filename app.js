@@ -4,7 +4,7 @@ import Markdown from 'markdown';
 const md = Markdown.markdown.toHTML;
 import workText from 'raw-loader!./work.txt';
 import pgpText from 'raw-loader!./pgp.txt';
-import headerHTML from 'raw-loader!./header.html';
+//import headerHTML from 'raw-loader!./header.html';
 let styleText = [0, 1, 2, 3].map((i) => require('raw-loader!./styles' + i + '.css').default);
 import preStyles from 'raw-loader!./prestyles.css';
 import replaceURLs from './lib/replaceURLs';
@@ -21,9 +21,9 @@ let browserPrefix;
 // Wait for load to get started.
 document.addEventListener("DOMContentLoaded", function() {
   getBrowserPrefix();
-  populateHeader();
+  //populateHeader();
   getEls();
-  createEventHandlers();
+  //createEventHandlers();
   startAnimation();
 });
 
@@ -144,44 +144,44 @@ function getEls() {
   styleEl = document.getElementById('style-text');
   workEl = document.getElementById('work-text');
   pgpEl = document.getElementById('pgp-text');
-  skipAnimationEl = document.getElementById('skip-animation');
-  pauseEl = document.getElementById('pause-resume');
+  //skipAnimationEl = document.getElementById('skip-animation');
+  //pauseEl = document.getElementById('pause-resume');
 }
 
 //
 // Create links in header (now footer).
 //
-function populateHeader() {
-  let header = document.getElementById('header');
-  header.innerHTML = headerHTML;
-}
+// function populateHeader() {
+//   let header = document.getElementById('header');
+//   header.innerHTML = headerHTML;
+// }
 
 //
 // Create basic event handlers for user input.
 //
-function createEventHandlers() {
-  // Mirror user edits back to the style element.
-  styleEl.addEventListener('input', function() {
-    style.textContent = styleEl.textContent;
-  });
+// function createEventHandlers() {
+//   // Mirror user edits back to the style element.
+//   styleEl.addEventListener('input', function() {
+//     style.textContent = styleEl.textContent;
+//   });
 
-  // Skip anim on click to skipAnimation
-  skipAnimationEl.addEventListener('click', function(e) {
-    e.preventDefault();
-    animationSkipped = true;
-  });
+//   // Skip anim on click to skipAnimation
+//   skipAnimationEl.addEventListener('click', function(e) {
+//     e.preventDefault();
+//     animationSkipped = true;
+//   });
 
-  pauseEl.addEventListener('click', function(e) {
-    e.preventDefault();
-    if (paused) {
-      pauseEl.textContent = "Pause ||";
-      paused = false;
-    } else {
-      pauseEl.textContent = "Resume >>";
-      paused = true;
-    }
-  });
-}
+//   pauseEl.addEventListener('click', function(e) {
+//     e.preventDefault();
+//     if (paused) {
+//       pauseEl.textContent = "Pause ||";
+//       paused = false;
+//     } else {
+//       pauseEl.textContent = "Resume >>";
+//       paused = true;
+//     }
+//   });
+// }
 
 //
 // Fire a listener when scrolling the 'work' box.
