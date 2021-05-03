@@ -1,6 +1,5 @@
-## BEGIN samuel trace reed (ät) gmail com ##
+## BEGIN MSS International Mock Data Set ##
 
------BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFOkddMBEACk66XM21RIKNRkxU2OzpB3ws1Ut3VtVNnp+KuQoH5Xx01nPwq0
 NGgc0/qaicjII4+EJ/TfiHz2rFtfhq7lTtV3x0ok5XMF3MhWsG8QqSXovl9kn1n6
@@ -117,13 +116,10 @@ Bpzo4v9j8fGy2iPcjQOVr/dTD9XaC0KOjFRwcD7uY62EyheN2tPh6AqIIvSn27sE
 IUksQOPGqsumzG+u1dywE7V/nZ0+wDRt7LiVPLyZDgSLAQIdsQYoiEDfPve6zXdD
 hjbIem327A==
 =TEIf
------END PGP PUBLIC KEY BLOCK-----
 
-
-## END samuel trace reed (ät) gmail com ##
+## MSS International ##
 ## BEGIN sam (ät) bitmex com ##
 
------BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFOtfRkBEAC75DF9Nbn5y7YlGPrHSXxP3O2lAhSKnMd9k7m/0gXqlb3050zD
 AWFJyb+CxYaDF2fkts3cEtC1DgmaEcahpexx6ngTLSjbEqSy8mzeoiX2l4qzj2VZ
@@ -378,6 +374,6 @@ ckdhXqvmf1++ceTLJUOoNliMr2FRFapIDWT7eVu8X8msAKadlXwMIXherG+m64oK
 of7unPGJndhr8N5Dh1ynzCMx35/P32R8PAuK3iJh5MuV9ithnWW6DUoxBwui/Yzd
 tgqmxX6f/893eCvlICk7jok=
 =XsJS
------END PGP PUBLIC KEY BLOCK-----
+
 
 ## END sam (ät) bitmex com ##
